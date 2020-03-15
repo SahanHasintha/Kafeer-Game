@@ -131,3 +131,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5ad4a13579c08f49b9cd096e34e4f6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BulletBlastInTerroTank: {fileID: 4145884638474109472, guid: 7211ba013faa3bc4c8da693bba19aa1e,
+    type: 3}
+  Parent: {fileID: 2837822667599358999, guid: 88b1e84c4dd661b4f9980312b63d72a3, type: 3}

@@ -9,6 +9,7 @@ public class BuildingSpawn : MonoBehaviour
     public float timeMin, timeMax;
     public int buildingMinValue, buildingMaxValue;
     private int x;
+    public int numberOfHouses;
 
 
     void Start()
@@ -20,13 +21,13 @@ public class BuildingSpawn : MonoBehaviour
     IEnumerator SpawnBulding01()
     {
         
-        x++;
+       
         yield return new WaitForSeconds(Random.Range(timeMin, timeMax));
         GameObject xxx = Instantiate(Buildings[Random.Range(buildingMinValue, buildingMaxValue)], transform.position, transform.rotation);
         xxx.transform.SetParent(Parent);
-        
+        x++;
         StartCoroutine(SpawnBulding01());
-        if (x == 8)
+        if (x == numberOfHouses )
         {
             StopAllCoroutines();
         }

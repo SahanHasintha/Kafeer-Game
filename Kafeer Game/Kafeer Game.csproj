@@ -254,6 +254,12 @@
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>E:/Unity Game/Kafeer Game/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
+    <Reference Include="ChannelPurchase">
+      <HintPath>E:/Unity Game/Kafeer Game/Library/PackageCache/com.unity.xiaomi@1.0.3/ChannelPurchase.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityStore">
+      <HintPath>E:/Unity Game/Kafeer Game/Library/PackageCache/com.unity.xiaomi@1.0.3/UnityStore.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>D:/Installed Software/Unity/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -619,6 +625,14 @@
       <Project>{C12CEEC6-100C-58A2-DE36-314E4DE5E40B}</Project>
       <Name>Unity.CollabProxy.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="Editor.csproj">
+      <Project>{B2E402A9-DAB0-44FA-0EB3-EAC8D63ADBEE}</Project>
+      <Name>Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="XiaomiSupport.csproj">
+      <Project>{A2A6A8B2-DDE1-D596-6008-90CE9610175C}</Project>
+      <Name>XiaomiSupport</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
       <Project>{07A21C90-D344-AE1A-8456-9910C203B41A}</Project>
       <Name>Unity.TextMeshPro</Name>
@@ -629,15 +643,26 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Birds\Bats.cs" />
     <Compile Include="Assets\Scripts\Bomb\Bomb.cs" />
+    <Compile Include="Assets\Scripts\Bomb\TNT.cs" />
+    <Compile Include="Assets\Scripts\Bomb\TNTSpawn.cs" />
     <Compile Include="Assets\Scripts\Btns\Button.cs" />
+    <Compile Include="Assets\Scripts\Btns\PutBombScript.cs" />
     <Compile Include="Assets\Scripts\Camera Follow\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Destroyers\BombCollider.cs" />
-    <Compile Include="Assets\Scripts\Destroyers\BuildingDestroyer.cs" />
+    <Compile Include="Assets\Scripts\Camera Follow\ControllingCameraAspectScript.cs" />
+    <Compile Include="Assets\Scripts\Camera Follow\Destroyers\BombCollider.cs" />
+    <Compile Include="Assets\Scripts\Camera Follow\Destroyers\BuildingDestroyer.cs" />
     <Compile Include="Assets\Scripts\Footer\Grass.cs" />
     <Compile Include="Assets\Scripts\Instantiates\Building.cs" />
     <Compile Include="Assets\Scripts\Instantiates\BuildingSpawn.cs" />
     <Compile Include="Assets\Scripts\Kafeer\Kafeer.cs" />
+    <Compile Include="Assets\Scripts\Tank\MiletaryBullet.cs" />
+    <Compile Include="Assets\Scripts\Tank\Tank.cs" />
+    <Compile Include="Assets\Scripts\Tank\TankBulletSpawn.cs" />
+    <Compile Include="Assets\Scripts\Tank\TankM.cs" />
+    <Compile Include="Assets\Scripts\Tank\TerroristBullet.cs" />
+    <Compile Include="Assets\Scripts\Trees\trees.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Packages\com.unity.collab-proxy\Editor\Resources\Styles\CollabHistoryCommon.uss" />

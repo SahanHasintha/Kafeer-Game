@@ -6,6 +6,7 @@ public class BuildingDestroyer : MonoBehaviour
 {
     private int x;
     private Bomb bomb;
+    public int numberOfHouses;
 
     private void Start()
     {
@@ -18,15 +19,26 @@ public class BuildingDestroyer : MonoBehaviour
         if (target.tag == "FullBuilding")
         {
             x++;
-          
             Destroy(target.gameObject);
-            if (x == 7)
+            if (x == numberOfHouses)
             {
                 bomb.gameLost = true;
             }
         }
 
-    }
-    
+        if (target.tag == "TNT")
+        {
+            Destroy(target.gameObject);
+        }
+        if (target.tag == "Trees"|| target.tag == "Bats")
+        {
+            Destroy(target.gameObject);
+        }
+        if (target.tag == "FullTank")
+        {
+            print("COllide");
+            Destroy(target.gameObject);
+        }
 
+    }
 }

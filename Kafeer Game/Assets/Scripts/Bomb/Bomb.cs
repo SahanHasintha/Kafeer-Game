@@ -13,41 +13,51 @@ public class Bomb : MonoBehaviour
     public Text Bullet;
     public GameObject GameOverBoard;
     public GameObject GamePlayCanvas;
+    public GameObject Panel;
     public GameObject Grass;
-    public GameObject BuildingSpawner;
+    public GameObject BuildingSpawner, TankSpawner;
     public int score;
     public Text scoreText;
     public GameObject GameWinBoard;
     public bool gameWin;
     public bool gameLost;
     public GameObject GameWinStarAwesome, GameWinStarHighSmile, GameWinStarNormalSmile;
+    public int scoreForGameWin, numberOfBullet;
+    public int gameWinGreate, gameWinNormal, gameWinLow;
+    public Text GameOverBScore;
+    int highScore;
 
     void Start()
     {
         gameLost = false;
         gameWin = false;
         score = 0;
-        numberOFBullet = 20;
+        numberOFBullet = numberOfBullet;
+    }
+   public void SpawnBomb()
+    {
+        Fire();
     }
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        /*if (Input.GetButtonDown("Fire1"))
         {
             Fire();
-        }
+        }*/
 
         if (gameLost)
         {
             ActiveAndDeactivateCallForLost();
         }
 
-        if (gameWin)
+        if (gameWin==true)
         {
             ActiveAndDeactiveCallForWin();
         }
         setScore();
         GameWin();
+        GameOverBoardScore();
     }
     void Fire()
     {
@@ -68,9 +78,10 @@ public class Bomb : MonoBehaviour
     IEnumerator BulletText() {
         yield return new WaitForSeconds(0.2f);
         Bullet.text = numberOFBullet.ToString();
-        if (numberOFBullet == 0)
+        if (numberOFBullet <= 0)
         {
-            gameLost = true;
+                yield return new WaitForSeconds(1f);
+                gameLost = true;
             
         }
     }
@@ -86,18 +97,18 @@ public class Bomb : MonoBehaviour
     private void GameWin()
     {
 
-        if (score >= 300)
+        if (score >= scoreForGameWin)
         {
-            if (numberOFBullet >= 10)
+            if (numberOFBullet >= gameWinGreate)
             {
                 GameWinStarAwesome.SetActive(true);
                 gameWin = true;
             }
-            else if (numberOFBullet >= 8)
+            else if (numberOFBullet >= gameWinNormal)
             {
                 GameWinStarHighSmile.SetActive(true);
                 gameWin = true;
-            }else if (numberOFBullet >= 6)
+            }else if (numberOFBullet >= gameWinLow)
             {
                 GameWinStarNormalSmile.SetActive(true);
                 gameWin = true;
@@ -120,20 +131,31 @@ public class Bomb : MonoBehaviour
 
     IEnumerator ActiveAndDeactiveForLost()
     {
-        yield return new WaitForSeconds(0.2f);
+        
+        yield return new WaitForSeconds(0.5f);
+        Time.timeScale = 0;
         GameOverBoard.SetActive(true);
         GamePlayCanvas.SetActive(false);
-        Kafeer.SetActive(false);
         Grass.SetActive(false);
-        BuildingSpawner.SetActive(false);
+        Panel.SetActive(true);
+        
     }
     IEnumerator ActiveAndDeactiveForWin()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0.5f);
+        Time.timeScale = 0;
         GameWinBoard.SetActive(true);
         GamePlayCanvas.SetActive(false);
-        Kafeer.SetActive(false);
         Grass.SetActive(false);
-        BuildingSpawner.SetActive(false);
+        Panel.SetActive(true);
     }
+
+    void GameOverBoardScore()
+    {
+        PlayerPrefs.SetInt("score", score);
+        GameOverBScore.text = PlayerPrefs.GetInt("score").ToString();
+        
+    }
+
+    
 }

@@ -5,17 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class Button : MonoBehaviour
 {
-    void Start()
+
+    public GameObject PauseMenu;
+
+    public void PressPauseButton()
     {
-        
+        Time.timeScale = 0;
+        PauseMenu.SetActive(true);
     }
 
-    void Update()
+    public void PressResumeButton()
     {
-        
+        Time.timeScale = 1f;
+        PauseMenu.SetActive(false);
     }
     public void RestartButton()
     {
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void NextLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex+1);
     }
 }

@@ -60,8 +60,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Birds\Bats.cs" />
     <Compile Include="Assets\Scripts\Bomb\Bomb.cs" />
+    <Compile Include="Assets\Scripts\Bomb\TNT.cs" />
+    <Compile Include="Assets\Scripts\Bomb\TNTSpawn.cs" />
     <Compile Include="Assets\Scripts\Btns\Button.cs" />
+    <Compile Include="Assets\Scripts\Btns\PutBombScript.cs" />
     <Compile Include="Assets\Scripts\Camera Follow\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Camera Follow\ControllingCameraAspectScript.cs" />
     <Compile Include="Assets\Scripts\Camera Follow\Destroyers\BombCollider.cs" />
@@ -70,6 +74,12 @@
     <Compile Include="Assets\Scripts\Instantiates\Building.cs" />
     <Compile Include="Assets\Scripts\Instantiates\BuildingSpawn.cs" />
     <Compile Include="Assets\Scripts\Kafeer\Kafeer.cs" />
+    <Compile Include="Assets\Scripts\Tank\MiletaryBullet.cs" />
+    <Compile Include="Assets\Scripts\Tank\Tank.cs" />
+    <Compile Include="Assets\Scripts\Tank\TankBulletSpawn.cs" />
+    <Compile Include="Assets\Scripts\Tank\TankM.cs" />
+    <Compile Include="Assets\Scripts\Tank\TerroristBullet.cs" />
+    <Compile Include="Assets\Scripts\Trees\trees.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>E:/Unity Game/Kafeer Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

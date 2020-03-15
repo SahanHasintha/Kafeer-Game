@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3085282522576149062}
   m_Layer: 0
   m_Name: Building01Part02
-  m_TagString: Buildings
+  m_TagString: DestroyablePart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,9 +123,12 @@ EdgeCollider2D:
   - {x: -0.030647755, y: 1.6432209}
   - {x: -0.27287412, y: 1.3327236}
   - {x: -0.73555446, y: 1.3390297}
-  - {x: -0.9561095, y: 0.44215155}
-  - {x: 0.004921913, y: 0.46027064}
-  - {x: 0.9605632, y: 0.44760084}
+  - {x: -1.1288788, y: 0.46138763}
+  - {x: -0.99422646, y: 0.46138757}
+  - {x: -0.99277306, y: -0.5167624}
+  - {x: 0.98595977, y: -0.5015312}
+  - {x: 0.98885715, y: 0.40055096}
+  - {x: 1.0948603, y: 0.41402662}
   - {x: 0.7463951, y: 1.333605}
 --- !u!1 &2204583997707224489
 GameObject:
@@ -175,7 +178,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.005133629, y: -0.1603533}
+  m_Offset: {x: 0.014751703, y: -0.1603533}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -186,7 +189,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8727179, y: 2.958625}
+  m_Size: {x: 1.4687612, y: 2.958625}
   m_EdgeRadius: 0
 --- !u!50 &4648149245836593288
 Rigidbody2D:
@@ -196,7 +199,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2204583997707224489}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

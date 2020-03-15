@@ -4,9 +4,21 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Buildings
   - FullBuilding
   - Footer
+  - TNT
+  - Missile
+  - Blast
+  - DestroyablePart
+  - Buildings
+  - DestroyablePart2
+  - MiletaryTank
+  - PassedPosition
+  - TankBullet
+  - FullTank
+  - DestroyablePart3
+  - Trees
+  - Bats
   layers:
   - Default
   - TransparentFX

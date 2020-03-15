@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class TerroristBullet : MonoBehaviour
 {
+    
     void Update()
     {
         transform.Translate(0.5f, 0, 0);

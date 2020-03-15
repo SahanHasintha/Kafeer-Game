@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 7660282262505214195}
   m_Layer: 0
   m_Name: missile
-  m_TagString: Untagged
+  m_TagString: Missile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,8 +99,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1440558157
-  m_SortingLayer: 2
+  m_SortingLayerID: -1373740111
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 792d902dcb1e3b54bb289a757ea67b12, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -147,8 +147,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11400572, y: 0}
-  m_Size: {x: 4.51182, y: 10.56}
+  m_Offset: {x: -0.11400572, y: 0.8715423}
+  m_Size: {x: 4.51182, y: 8.8169155}
   m_Direction: 0
 --- !u!114 &7660282262505214195
 MonoBehaviour:
@@ -162,10 +162,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a7aeea1b631e1c40b36edf29a79e96c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Blast: {fileID: 8493947832730975029, guid: 0e8467207a8208747a86fc4d047abda8, type: 3}
+  Blast: {fileID: 1460204443951873374, guid: 0265112bb7ba4b44abc4516ae70cdc81, type: 3}
   BlastPosition: {fileID: 7649542085462963838}
   BlastFooter: {fileID: 4700274152448396496, guid: 90e444d03e925b345b506198e34c277d,
     type: 3}
-  ScoreText: {fileID: 643235068577641192, guid: 0db1a216ecf064a4585e39e9b53afbcd,
-    type: 3}
-  score: 0
+  marksForDestroyablePart01: 100
+  marksForDestroyablePart03: 50
+  marksForTankCollide: 200

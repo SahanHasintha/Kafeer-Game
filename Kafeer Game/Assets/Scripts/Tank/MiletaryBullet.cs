@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MiletaryBullet : MonoBehaviour
 {
+    public GameObject BulletBlastInTerroTank;
+    public Transform Parent;
     void Update()
     {
         transform.Translate(-0.5f, 0, 0);
@@ -16,6 +18,9 @@ public class MiletaryBullet : MonoBehaviour
         {
             //print("Hit the Enemy tank");
             Destroy(this.gameObject);
+            GameObject xxx= Instantiate(BulletBlastInTerroTank, transform.position, transform.rotation);
+            xxx.transform.SetParent(Parent);
+
         }
     }
 
