@@ -980,7 +980,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 504187359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.78, y: -4.27, z: 10.565268}
+  m_LocalPosition: {x: 8.78, y: -4.42, z: 10.565268}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1001881753}
@@ -1393,7 +1393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd4ead62ffb06b44ebbcd519d03657c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberOfHouses: 40
+  numberOfHouses: 35
 --- !u!50 &690772638
 Rigidbody2D:
   serializedVersion: 4
@@ -1748,8 +1748,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971017100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.16899997, y: -0.161, z: 10}
-  m_LocalScale: {x: 1.9032271, y: 1.7521921, z: 1}
+  m_LocalPosition: {x: 0.16899997, y: -0.05, z: 10}
+  m_LocalScale: {x: 1.9032271, y: 1.7907403, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 4
@@ -3025,7 +3025,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1843468914}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.6, y: -1.51, z: 1}
+  m_LocalPosition: {x: 13.6, y: -1.66, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
@@ -3078,7 +3078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868532589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.6, y: -2.73, z: 1}
+  m_LocalPosition: {x: 13.6, y: -2.88, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
@@ -3103,7 +3103,7 @@ MonoBehaviour:
   timeMax: 1.6
   buildingMinValue: 0
   buildingMaxValue: 0
-  numberOfHouses: 40
+  numberOfHouses: 35
 --- !u!1 &1887549008
 GameObject:
   m_ObjectHideFlags: 0

@@ -4108,7 +4108,7 @@ PrefabInstance:
     - target: {fileID: 8468226407304933773, guid: 0eac590b948d264408e9d586a8dcca9b,
         type: 3}
       propertyPath: scoreForGameWin
-      value: 500
+      value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 8468226407304933773, guid: 0eac590b948d264408e9d586a8dcca9b,
         type: 3}
