@@ -1748,8 +1748,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971017100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.16899997, y: -0.073, z: 10}
-  m_LocalScale: {x: 1.9032271, y: 1.7818322, z: 1}
+  m_LocalPosition: {x: 0.16899997, y: -0.023, z: 10}
+  m_LocalScale: {x: 1.9032271, y: 1.7995013, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 4
@@ -3049,8 +3049,8 @@ MonoBehaviour:
   - {fileID: 4951220788531391715, guid: b1fa7e347d0c59f4bbe9d5ca2ffddf94, type: 3}
   - {fileID: 4951220788531391715, guid: b1fa7e347d0c59f4bbe9d5ca2ffddf94, type: 3}
   Parent: {fileID: 519420032}
-  timeMin: 0.1
-  timeMax: 0.4
+  timeMin: 0.5
+  timeMax: 1.5
   buildingMinValue: 0
   buildingMaxValue: 3
 --- !u!1 &1868532589
@@ -3078,7 +3078,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868532589}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.6, y: -2.78, z: 1}
+  m_LocalPosition: {x: 13.6, y: -2.88, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
@@ -3097,13 +3097,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Buildings:
-  - {fileID: 2910013051911711962, guid: aa894f7ed66badb4991faf2b5671f049, type: 3}
-  - {fileID: 6972444741212958105, guid: 3413570f339ac174d9eefd947d027690, type: 3}
+  - {fileID: 1534874891481636751, guid: b43e5d5f5f0f09746ae1286d37521394, type: 3}
+  - {fileID: 2588030441403876038, guid: a26573bdc8d078942a57da43fd3e00d3, type: 3}
+  - {fileID: 6698314685549611894, guid: 963730030014aa94195befa6103ca735, type: 3}
   Parent: {fileID: 519420032}
   timeMin: 0.5
-  timeMax: 1.6
+  timeMax: 1.5
   buildingMinValue: 0
-  buildingMaxValue: 2
+  buildingMaxValue: 3
   numberOfHouses: 40
 --- !u!1 &1887549008
 GameObject:

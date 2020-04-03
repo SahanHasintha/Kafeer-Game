@@ -2875,7 +2875,7 @@ MonoBehaviour:
   - {fileID: 2204583997707224489, guid: 0b6caa65d8696d94d82dda1a37b1193f, type: 3}
   Parent: {fileID: 519420032}
   timeMin: 0.5
-  timeMax: 2.5
+  timeMax: 1.5
   buildingMinValue: 0
   buildingMaxValue: 0
   numberOfHouses: 30

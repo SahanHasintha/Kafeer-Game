@@ -21,10 +21,10 @@ MonoBehaviour:
     y: 30
     width: 1350
     height: 609
-  m_MinSize: {x: 885, y: 474}
-  m_MaxSize: {x: 16010, y: 14024}
+  m_MinSize: {x: 881, y: 474}
+  m_MaxSize: {x: 16006, y: 14024}
   vertical: 0
-  controlID: 448
+  controlID: 3437
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -126,10 +126,10 @@ MonoBehaviour:
     y: 0
     width: 1073
     height: 609
-  m_MinSize: {x: 608, y: 474}
-  m_MaxSize: {x: 12008, y: 14024}
+  m_MinSize: {x: 606, y: 474}
+  m_MaxSize: {x: 12006, y: 14024}
   vertical: 1
-  controlID: 408
+  controlID: 3397
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,10 +152,10 @@ MonoBehaviour:
     y: 0
     width: 1073
     height: 335
-  m_MinSize: {x: 608, y: 224}
-  m_MaxSize: {x: 12008, y: 4024}
+  m_MinSize: {x: 606, y: 224}
+  m_MaxSize: {x: 12006, y: 4024}
   vertical: 0
-  controlID: 388
+  controlID: 3377
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,7 +213,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 46e9ffff62e9ffff7ee9ffff9ae9ffffb6e9ffffd4fbfffff43000000c41000010410000
+      m_ExpandedIDs: acedffff50f8ffff70f8ffff56f9ffffd4fbffff802b00008e2b0000922b0000163100004c310000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -296,9 +296,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.2957325, y: -4.3664503, z: 0.31942403}
+    m_Target: {x: -0.60417604, y: -0.5604843, z: 0.04248047}
     speed: 2
-    m_Value: {x: 5.2957325, y: -4.3664503, z: 0.31942403}
+    m_Value: {x: -0.60417604, y: -0.5604843, z: 0.04248047}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -330,9 +330,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 26.917044
+    m_Target: 2.6100454
     speed: 2
-    m_Value: 26.917044
+    m_Value: 2.6100454
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -389,8 +389,8 @@ MonoBehaviour:
     y: 0
     width: 574
     height: 335
-  m_MinSize: {x: 204, y: 224}
-  m_MaxSize: {x: 4004, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 2}
@@ -415,8 +415,8 @@ MonoBehaviour:
     y: 335
     width: 1073
     height: 274
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 232, y: 274}
+  m_MaxSize: {x: 10002, y: 10024}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -461,20 +461,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sprites/FooterComponents
+    - Assets/Pre-Fabs
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Sprites/FooterComponents
+  - Assets/Pre-Fabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Unity Game\Kafeer Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 275}
-    m_SelectedIDs: 1a280000
-    m_LastClickedID: 10266
-    m_ExpandedIDs: 0000000072260000a6260000d82700004a280000f02800000a29000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: fa260000
+    m_LastClickedID: 9978
+    m_ExpandedIDs: 0000000072260000a6260000de27000050280000fa2800001429000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000072260000a6260000d82700004a280000f02800000a29000000ca9a3b
+    m_ExpandedIDs: 0000000072260000a6260000de27000050280000fa2800001429000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -527,10 +527,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 64e8ffff
-    m_LastClickedInstanceID: -6044
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c623000008190100101901000c19010052230100fc5600000057000060600000dc65000098280000ecb90000f4b9000048cd00005a30000062300000c4280000cc280000d4280000de2800000e2900000a29000006290000402b00006c26000050260000342600002828000030260000863200007e3200008e3200007a32000092320000823200008a3200007e33000072330000823300007a330000763300001826000092290000fc2f00008c300000fc2d00006432000060270000a62f0000a22f00000c2c0000102c0000c027000082270000022700003c330000383300000a270000382600005a2900007e27000014280000662c0000762c0000802c0000063300000e330000163300002027000052270000e426000000270000e82c0000ec2c00007e7a000042920000469200006a270000feb6000000000000f24b0000f64b00009a6600009e660000ea2c0000823100008a3100001c3a0000d2410000aa4d0000663a00006e3a00005e3a0000623a00005a3a00006a3a0000682e0000642e00000a44000006440000a0290000064d0000024d0000309500004ea800002eaa0000ac300000a83000003e4000003a400000747600002642000030420000
+    m_SelectedInstanceIDs: b0ecffff
+    m_LastClickedInstanceID: -4944
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c623000008190100101901000c19010052230100fc5600000057000060600000dc65000098280000ecb90000f4b9000048cd00005a30000062300000c4280000cc280000d4280000de2800000e2900000a29000006290000402b00006c26000050260000342600002828000030260000863200007e3200008e3200007a32000092320000823200008a3200007e33000072330000823300007a330000763300001826000092290000fc2f00008c300000fc2d00006432000060270000a62f0000a22f00000c2c0000102c0000c027000082270000022700003c330000383300000a270000382600005a2900007e27000014280000662c0000762c0000802c0000063300000e330000163300002027000052270000e426000000270000e82c0000ec2c00007e7a000042920000469200006a270000feb6000000000000f24b0000f64b00009a6600009e660000ea2c0000823100008a3100001c3a0000d2410000aa4d0000663a00006e3a00005e3a0000623a00005a3a00006a3a0000682e0000642e00000a44000006440000a0290000064d0000024d0000309500004ea800002eaa0000ac300000a83000003e4000003a400000747600002642000030420000824500008235000086350000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -554,7 +554,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 67}
     m_GridSize: 64
   m_DirectoriesAreaWidth: 119
 --- !u!114 &13

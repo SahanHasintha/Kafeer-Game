@@ -3099,7 +3099,7 @@ MonoBehaviour:
   Buildings:
   - {fileID: 1534874891481636751, guid: b43e5d5f5f0f09746ae1286d37521394, type: 3}
   Parent: {fileID: 519420032}
-  timeMin: 0.5
+  timeMin: 1
   timeMax: 2.5
   buildingMinValue: 0
   buildingMaxValue: 0

@@ -1748,8 +1748,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 971017100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.16899997, y: -0.059, z: 10}
-  m_LocalScale: {x: 1.9032271, y: 1.787236, z: 1}
+  m_LocalPosition: {x: 0.16899997, y: -0.073, z: 10}
+  m_LocalScale: {x: 1.9032271, y: 1.7818322, z: 1}
   m_Children: []
   m_Father: {fileID: 519420032}
   m_RootOrder: 4
@@ -3099,13 +3099,11 @@ MonoBehaviour:
   Buildings:
   - {fileID: 2910013051911711962, guid: aa894f7ed66badb4991faf2b5671f049, type: 3}
   - {fileID: 6972444741212958105, guid: 3413570f339ac174d9eefd947d027690, type: 3}
-  - {fileID: 2910013051911711962, guid: aa894f7ed66badb4991faf2b5671f049, type: 3}
-  - {fileID: 2910013051911711962, guid: fddc02d00406d714b86ccd48e6b24467, type: 3}
   Parent: {fileID: 519420032}
   timeMin: 0.5
   timeMax: 1.6
   buildingMinValue: 0
-  buildingMaxValue: 4
+  buildingMaxValue: 2
   numberOfHouses: 40
 --- !u!1 &1887549008
 GameObject:
